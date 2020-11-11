@@ -11,7 +11,24 @@
 </head>
 <body>
   
- 
+  <div class="container d-flex align-items-center justify-content-center flex-column">
+    <form class="js-Form form-group d-flex flex-column align-items-center" action="POST">
+      <label for="text" class="h1">Eng uzun so'zni topib beruvchi dastur</label>
+      <textarea name="text" class="js-Textarea form-control" id="text" cols="20" rows="10">
+        
+      </textarea>
+      
+      <div class="my-2">
+        <button class="btn btn-primary mx-1" type="submit">Submit/Tekshirish</button>
+        <button class="js-deletewordBtn btn btn-danger mx-1" type="button">Delete words</button>
+      </div>
+    </form>
+    <p class="h4">Javoblar</p>
+    <div class="js-result">
+      
+    </div>
+  </div>
+  
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/scripts.js"></script>
